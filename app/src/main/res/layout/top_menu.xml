@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/accelerometerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加速度\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/orientationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" android:text="傾き(方向)\nセンサー" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/magneticFieldButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="地磁気\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/lightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="照度\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/proximityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="近接\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/temperatureButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="温度\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/pressureButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="圧力\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/gyroscopeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ジャイロ\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/gravityButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="重力\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/linearAccelerometerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="直線加速度\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/rotationVectorButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="回転ベクトル\nセンサー" android:layout_weight="0.3" android:paddingBottom="20dp" android:paddingTop="20dp"/>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3" android:visibility="invisible" android:text="回転ベクトル\nセンサー"/>
+
+    </LinearLayout>
+
+</LinearLayout>
