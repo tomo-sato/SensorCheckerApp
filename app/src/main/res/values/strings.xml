@@ -2,6 +2,6 @@
 <resources>
 
     <string name="hello">Hello World, SensorCheckerAppActivity!</string>
-    <string name="app_name">センサーチェッカー</string>
+    <string name="app_name">SensorCheckerApp</string>
 
 </resources>
